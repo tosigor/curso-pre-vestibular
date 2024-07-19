@@ -1,6 +1,6 @@
 /* Estilos gerais */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #000000; /* Preto */
@@ -51,6 +51,26 @@ section {
   padding: 50px;
   background-color: #FFFFFF; /* Branco */
   color: #000000; /* Preto */
+}
+
+/* Estilos das caixas de opções */
+.options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.option {
+  background-color: #FF4500; /* Laranja */
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF; /* Branco */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #FF5722; /* Laranja mais escuro */
 }
 
 /* Estilos do rodapé */
